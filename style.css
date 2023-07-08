@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 120px;
 }
 .text-primary{
     color: orange;
@@ -43,3 +44,18 @@ nav{
     text-decoration: none;
     color: slategrey;
   }
+  /* header related style */
+ .main-head{
+    background-color: #cec7c3 ;
+    /* display: flex; */
+ }
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .my-pic {
+  
+    width: 520px;
+    
+}
