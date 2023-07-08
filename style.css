@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body{
+ 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar work */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-primary{
+    color: orange;
+}
+.btn {
+    background : orange;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 18px 30px 18px;
+  
+  }
+.sabbir{
+  font-weight: 800px;
+  font-size: 45px; }
+ 
+  nav > ul{
+    display: flex; 
+    align-items: center;
+  
+}
+  nav li {
+ list-style: none;
+ margin-right: 50px;
+
+  }
+  nav a{
+    text-decoration: none;
+    color: slategrey;
+  }
